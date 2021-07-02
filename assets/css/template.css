@@ -270,10 +270,16 @@ footer {
     display: flex;
 }
 
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .fm-1, .fm-2, .fm-3 {
     flex: 1;
     color: #fff;
-    padding: 20px;
+    padding: 30px 20px 30px 20px;
+    font-size: 25px;
 }
 
 .fm-1 {
@@ -286,6 +292,11 @@ footer {
 
 .fm-3 {
     background-color: #2b4c99;
+}
+
+footer .fm_desc {
+    font-size: 15px;
+    margin-top: 20px;
 }
 
 .flexColumn {
